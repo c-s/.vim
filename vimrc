@@ -46,6 +46,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'flazz/vim-colorschemes'
 Plugin 'rust-lang/rust.vim'
 Plugin 'JuliaLang/julia-vim'
 " let Vundle manage Vundle
@@ -87,9 +88,6 @@ Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/ghcmod-vim'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'Twinside/vim-hoogle'
-
-" Colorscheme
-Plugin 'vim-scripts/wombat256.vim'
 
 " Custom bundles
 if filereadable(expand("~/.vim.local/bundles.vim"))
@@ -178,7 +176,7 @@ set mouse=a
 " Colors and Fonts {{{
 
 try
-  colorscheme wombat256mod
+  colorscheme github
 catch
 endtry
 
