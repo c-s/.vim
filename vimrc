@@ -195,6 +195,7 @@ hi! link Visual Search
 " Enable filetype plugin
 filetype plugin on
 filetype indent on
+set omnifunc=syntaxcomplete#Complete
 
 " Match wombat colors in nerd tree
 hi Directory guifg=#8ac6f2
