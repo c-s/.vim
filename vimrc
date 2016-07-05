@@ -441,6 +441,8 @@ endfunction
 nmap <silent> <leader>f <ESC>:call ToggleFindNerd()<CR>
 nmap <silent> <leader>F <ESC>:NERDTreeToggle<CR>
 
+map <C-n> :NERDTreeToggle<CR>
+
 " }}}
 
 " Alignment {{{
